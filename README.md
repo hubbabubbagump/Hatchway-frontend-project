@@ -1,4 +1,4 @@
-# Frontend Assessment
+# Hatchway's Frontend Assessment
 
 ![Preview image](preview.png)
 
