@@ -1,6 +1,6 @@
 # Frontend Assessment
 
-![Preview image][preview.png]
+![Preview image](preview.png)
 
 ##### How to run:
 - Install Yarn serve
