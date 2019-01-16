@@ -1,0 +1,138 @@
+html, body, #root {
+   height: 100%;
+}
+
+.studentApp {
+   background-color: #EEE;
+   height: 100%;
+}
+
+.studentList {
+   background-color: #FFF;
+   width: 800px;
+   height: 600px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   border-radius: 10px;
+}
+
+/* SEARCH BAR */
+
+.studentList .searchBox {
+   height: 104px;
+}
+
+.studentList .searchBox div[class*="MuiFormControl"] {
+   width: calc(100% - 20px);
+   height: 42px;
+   margin: 10px 10px 0 10px;
+}
+
+.studentList .searchBox div[class*="jss1"] {
+   width: calc(100% - 20px);
+   height: 42px;
+   margin: 10px 10px 0 10px;
+}
+
+.studentList div[class*="MuiInput-focused-"]::after {
+   border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+}
+.studentList div[class*="jss7"]::after {
+   border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+}
+
+.studentList div[class*="MuiInput-underline"]::after {
+   border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+}
+
+.studentList div[class*="jss9"]::after {
+   border-bottom: 2px solid rgba(0, 0, 0, 0.42);
+}
+
+/* STUDENTS */
+
+.studentList .students {
+   overflow-y: scroll;
+   height: calc(100% - 104px);
+}
+
+.studentList .student {
+   margin: 10px;
+   width: calc(100% - 20px);
+}
+
+.studentList div[class*="MuiGrid-item"] {
+   margin: 0px 0;
+}
+
+.studentList .profile_picture {
+   float: left;
+   height: calc(100%);
+   width: calc(100%);
+}
+
+.studentList .profile_picture div[class*="MuiAvatar"] {
+   height: 106px;
+   width: 106px;
+   border: 1px solid #DDD;
+}
+
+.studentList .profile_picture div[class*="32"] {
+   height: 106px;
+   width: 106px;
+   border: 1px solid #DDD;
+}
+
+.studentList .student .name {
+   font-weight: 700;
+   font-size: 27px;
+   /* display: block; */
+   padding-bottom: 5px;
+}
+
+.studentList .student .expand {
+   font-size: 30px;
+   font-weight: 1000;
+   float: right;
+   color: #777;
+}
+
+.studentList .student .expand:hover {
+   cursor: pointer;
+   color: #000;
+}
+
+.studentList .student .details {
+   color: #999;
+   display: block;
+   text-indent: 25px;
+}
+
+.studentList .student .grades {
+   display: block;
+   color: #999;
+   text-indent: 25px;
+}
+
+.studentList .student .tags {
+   display: block;
+   margin-left: 20px;
+}
+
+.studentList .student .tag {
+   display: inline-block;
+   padding: 5px;
+   margin: 5px;
+   background-color: #DDD;
+   border-radius: 5px;
+}
+
+.studentList .student .addTagBox {
+   margin-left: 25px;
+}
+
+::-webkit-scrollbar {display:none;}
