@@ -1,5 +1,7 @@
 # Frontend Assessment
 
+![Preview image][preview.png]
+
 ##### How to run:
 - Install Yarn serve
     - `yarn global add serve`
