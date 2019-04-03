@@ -4,7 +4,7 @@ import Avatar from '@material-ui/core/Avatar';
 import TextField from '@material-ui/core/TextField';
 import './App.css';
 
-const API = 'https://www.hatchways.io/api/assessment/students';
+const API = '';
 
 class App extends Component {
    constructor() {
